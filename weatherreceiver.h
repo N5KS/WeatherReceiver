@@ -15,7 +15,7 @@
 /* The frequency hopping sequence for transmitter
  * ID 1 on the Davis Vantage Pro2 weather station.
  * For Transmitter ID 1, the frequency hops every
- * 41/16ths of a second or 2.5625 Hz.
+ * 41/16ths ( 2.5625) seconds or 16 Hz.
  */
 
 uint8_t hopindex[] = { 18, 0, 19, 41, 25, 8, 47, 32,
