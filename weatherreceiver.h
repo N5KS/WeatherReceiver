@@ -25,20 +25,3 @@ uint8_t hopindex[] = { 18, 0, 19, 41, 25, 8, 47, 32,
                        39, 26, 9, 31, 50, 37, 12, 20,
                        33, 4, 43, 28, 15, 35, 6, 40,
                        11, 23, 46 }
-
-/*
- * the frequency hopping interval is 41/16 seconds,
- * or 16 Hz.
- */
-
-
-
-
-
-print("Len:", len(hopindex))
-print("Unique:", len(set(hopindex)))
-print("Missing:", set(range(51)) - set(hopindex))
-
-*/
-
-
